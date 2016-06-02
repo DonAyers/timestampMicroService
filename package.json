@@ -1,0 +1,16 @@
+{
+  "name": "timestampmicroservice",
+  "version": "1.0.0",
+  "description": "accepts unix timestamp in url, or natural language date (January 1, 1945) and serves up both in json format.",
+  "main": "app.js",
+  "dependencies": {
+    "datejs": "^1.0.0-rc3",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Don Ayers",
+  "license": "ISC"
+}
